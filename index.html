@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updated Landing Page</title>
+  <style>
+    :root {
+      --primary-dark: #173B3F;
+      --primary-deep: #0F292C;
+      --accent-mint: #B0D6CE;
+      --accent-light: #D8EFC8;
+      --white: #FFFFFF;
+      --green: #2BAE66;
+      --pink: #E01E5A;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--primary-dark);
+      color: var(--white);
+    }
+
+    header {
+      background-color: var(--primary-deep);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: var(--accent-light);
+    }
+
+    .section {
+      padding: 4rem 2rem;
+    }
+
+    .section.light {
+      background-color: var(--accent-mint);
+      color: var(--primary-deep);
+    }
+
+    .section.dark {
+      background-color: var(--primary-deep);
+    }
+
+    .cta {
+      background-color: var(--green);
+      color: var(--white);
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 1rem;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: var(--primary-deep);
+      text-align: center;
+      padding: 2rem;
+      color: var(--accent-mint);
+    }
+
+    img.hero {
+      max-width: 100%;
+      height: auto;
+      border: 5px solid var(--pink);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your AI Career Coach</h1>
+    <p>Smarter Interviews. Better Jobs.</p>
+  </header>
+
+  <div class="section light">
+    <h2>What We Do</h2>
+    <p>Career Coach is an AI-powered service that helps candidates refine their profiles and prepare for interviews with top companies.</p>
+  </div>
+
+  <div class="section dark">
+    <h2>How It Works</h2>
+    <p>Upload your resume, get personalized feedback, and practice with interactive, AI-driven mock interviews tailored to your dream job.</p>
+    <a class="cta" href="#">Get Started</a>
+  </div>
+
+  <div class="section light">
+    <h2>See It in Action</h2>
+    <img class="hero" src="your_image_url_here.jpg" alt="Career Coach in action">
+  </div>
+
+  <footer>
+    <p>© 2025 Career Coach. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
